@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "stomloader",
+  "version": "${version}",
+  "name": "stomloader",
+  "description": "Minestom loader for Airbrush on Minehut",
+  "authors": [
+    "honkling"
+  ],
+  "contact": {
+    "repo": "https://github.com/honkling/stomloader"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/stomloader/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "me.honkling.stomloader.StomLoader"
+    ]
+  },
+  "mixins": [
+    "stomloader.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
